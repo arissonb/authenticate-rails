@@ -4,7 +4,6 @@
 
 ## Pré-requisitos
 
-Exemplo:
 - Ruby 3.2.2
 - Rails 7.1.3.4
 
