@@ -1,24 +1,43 @@
-# README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Authenticate Rails
 
-Things you may want to cover:
 
-* Ruby version
+## Pré-requisitos
 
-* System dependencies
+Exemplo:
+- Ruby 3.2.2
+- Rails 7.1.3.4
 
-* Configuration
+## Instalação
 
-* Database creation
+1. Clone o repositório:
+   ```
+   git clone https://github.com/arissonb/authenticate-rails.git
+   cd authenticate-rails
+   ```
 
-* Database initialization
+2. Instale as dependências:
+   ```
+   bundle install
+   ```
 
-* How to run the test suite
+3. Configure o banco de dados:
+   ```
+   rails db:create
+   rails db:migrate
+   ```
 
-* Services (job queues, cache servers, search engines, etc.)
+## Uso
 
-* Deployment instructions
+- Para iniciar o servidor Rails:
+  ```
+  rails server
+  ```
 
-* ...
+- Abra o navegador e acesse `http://localhost:3000`.
+
+
+
+## Contato
+
+Se você tiver dúvidas, sugestões ou precisar de ajuda, sinta-se à vontade para me contatar por email: arisson.dev@gmail.com.
